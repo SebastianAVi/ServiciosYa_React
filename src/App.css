@@ -1,0 +1,5 @@
+/* Si quieres un layout con navbar arriba y contenido con padding */
+.app-content {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
