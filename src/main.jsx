@@ -1,16 +1,11 @@
-// src/main.jsx (versión con react-router)
-import React from 'react'
+// src/main.jsx
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'   // ← Importante: agregar esto
+import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
-
-    <BrowserRouter>           {/* ← Envuelve toda la app aquí */}
-      <App />
-    </BrowserRouter>
-
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 )

@@ -1,16 +1,14 @@
-import AppRutas from "./ruta/AppRutas";
-import AppNavbar from "./components/AppNavbar";
-import "./App.css";
+// src/App.jsx (versión corregida y limpia)
+import Layout from './components/Layout'
+import AppRutas from "./ruta/AppRutas"
+import "./App.css"
 
 function App() {
   return (
-    <>
-      <AppNavbar />
-      <main className="app-content">
-        <AppRutas />
-      </main>
-    </>
-  );
+    <Layout>
+      <AppRutas />
+    </Layout>
+  )
 }
 
-export default App;
+export default App
